@@ -6,7 +6,7 @@ setTimeout(function(){
   axe.run(document, {
     runOnly: {
       type: "tag",
-      values: ["wcag21a", "wcag21aa", "best-practice"]
+      values: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "best-practice"]
     },
     "rules": {
       "skip-link": { enabled: false }
