@@ -13,6 +13,8 @@ setTimeout(function(){
     }
   }, function(err, results) {
     if (err) throw err;
+    console.group('axe-core')
     console.log(results);
+    console.groupEnd();
   });
 }, 1000);
